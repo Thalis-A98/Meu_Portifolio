@@ -57,13 +57,20 @@ padding: 60px 0 0 100px;
 #iconeGit:hover{
     color: black;
 }
-.minhaFoto{
+.imagemPerfil{
+    width: 50%;
+    height: 92vh;
     position: absolute;
-    left: 750px;
-    bottom: 30px;
-    width: 450px;
-    height: 500px;
-    border-radius: 50px;
+    left: 50%;
+    bottom: 0vh;
+}
+.imagemPerfil img{
+    width: 50%;
+    height: 80vh;
+    position: relative;
+    left: 15%;
+    top: 5%;
+    border-radius: 30px;
 }
 
 
