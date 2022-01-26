@@ -163,3 +163,52 @@ header{
 .midias-sociais .fa-linkedin:hover{
     color: #0057BD;
 }
+.habilidades{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.header-hab{
+    align-items: center;
+    padding: 30px;
+}
+.header-hab h2{
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+}
+.header-hab h2::before{
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 130px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    
+}
+.titulo-content-hab{
+    width: 100%;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.titulo-content-hab h3{
+    font-size: 1.5em;
+}
+.titulo-content-hab span{
+    font-size: 1em;
+    font-weight: bold;
+}
+.content-hab{
+    display: flex;
+    justify-content: space-evenly;
+}
