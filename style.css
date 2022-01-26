@@ -4,6 +4,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -179,7 +180,7 @@ header{
 }
 .header-hab h2::before{
     content: "";
-    width: 50%;
+    width: 60%;
     height: 2px;
     background-color: black;
     position: absolute;
@@ -191,24 +192,81 @@ header{
     
 }
 .titulo-content-hab{
-    width: 100%;
+    width: 60%;
     position: absolute;
-    top: 250px;
+    top: 20rem;
     left: 50%;
     right: 50%;
     transform: translate(-50%,-50%);
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
 }
 .titulo-content-hab h3{
     font-size: 1.5em;
+    text-align: center;
 }
 .titulo-content-hab span{
     font-size: 1em;
     font-weight: bold;
 }
-.content-hab{
-    display: flex;
-    justify-content: space-evenly;
+.back-end, .front-end{
+    display: grid;
+    align-content: start;
+} 
+.liguangens-back{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 20px;
+}
+.liguangens-back div, .linguagens-front div{
+    display: grid;
+    padding: 15px;
+}
+.linguagens-front{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 20px;
+}
+.outer-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 7.5px;
+}
+.inner-circle{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.circle{
+    fill:none;
+    stroke: black;
+    stroke-width:15px;
+    stroke-dasharray: 472;
+}
+
+.csharp{
+    stroke-dashoffset: 350;
+}
+.python{
+    stroke-dashoffset: 250;
+}
+.php{
+    stroke-dashoffset: 250;
+}
+.html5{
+    stroke-dashoffset: 250;
+}
+.css3{
+    stroke-dashoffset: 250;
+}
+.javascript{
+    stroke-dashoffset: 250;
+}
+.bootstrap{
+    stroke-dashoffset: 250;
 }
