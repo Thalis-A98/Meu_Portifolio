@@ -221,7 +221,8 @@ header{
 }
 .liguangens-back div, .linguagens-front div{
     display: grid;
-    padding: 15px;
+    align-items: center;
+    justify-content: center;
 }
 .linguagens-front{
     display: grid;
@@ -229,44 +230,32 @@ header{
     text-align: center;
     margin-top: 20px;
 }
-.outer-circle{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 1px solid red;
-    padding: 7.5px;
-}
-.inner-circle{
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    border: 1px solid red;
-}
 .circle{
     fill:none;
-    stroke: black;
-    stroke-width:15px;
+    stroke: url(#grad1);
+    stroke-width:20px;
     stroke-dasharray: 472;
+    border: 1px solid red;
 }
 
 .csharp{
-    stroke-dashoffset: 350;
+    stroke-dashoffset: 400;
 }
 .python{
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 400;
 }
 .php{
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 400;
 }
 .html5{
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 350;
 }
 .css3{
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 350;
 }
 .javascript{
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 380;
 }
 .bootstrap{
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 390;
 }
