@@ -209,27 +209,21 @@ header{
     width: 100%;
     height: 400px;
     background-color: pink;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 .back{
     width: 100%;
     height: 400px;
     background-color: chartreuse;
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
 }
-.circular{
-    width: 150px;
-    height: 150px;
-    background: red;
-    position: relative;
+.skills{
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
 }
-.circular .inner{
-    position: absolute;
-    z-index: 6;
-    top: 50%;
-    left: 50%;
-    height: 120px;
-    width: 120px;
-    transform: translate(-50%,-50%); 
-    background: #FFF;
-    border-radius: 100%;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+.text-skill{
+    font-weight: bold;
 }
