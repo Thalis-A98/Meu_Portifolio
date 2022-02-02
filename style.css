@@ -192,7 +192,6 @@ header{
     
 }
 .titulo-content-hab{
-    background-color: blue;
     width: 60%;
     height: 80px;
     margin: 0 auto;
@@ -208,21 +207,19 @@ header{
 .front{
     width: 100%;
     height: 400px;
-    background-color: pink;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 .back{
     width: 100%;
     height: 400px;
-    background-color: chartreuse;
     display: grid;
-    grid-template-columns: repeat(2,1fr) ;
+    grid-template-columns: repeat(3,1fr) ;
 }
 .skills{
-    width: 100%;
     text-align: center;
     margin: 10px auto;
+
 }
 .text-skill{
     font-weight: bold;
