@@ -179,7 +179,7 @@ header{
 }
 .header-hab h2::before{
     content: "";
-    width: 60%;
+    width: 70%;
     height: 2px;
     background-color: black;
     position: absolute;
@@ -190,35 +190,33 @@ header{
     align-items: center;
     
 }
-.titulo-content-hab{
-    width: 60%;
-    height: 80px;
-    margin: 0 auto;
-    display: flex;
-    padding: 20px;
-    justify-content: space-around;
-}
 .content-hab{
     display: flex;
-    width: 60%;
+    max-width: 70%;
     margin: 0 auto;
+    text-align: center;
+    justify-content: space-around;
+    
 }
 .front{
-    width: 100%;
+    width: 45%;
     height: 400px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);    
+}
+.front h2 ,.back h2{
+    grid-column: span 3;
+    margin-top: 10px;
 }
 .back{
-    width: 100%;
+    width: 45%;
     height: 400px;
     display: grid;
-    grid-template-columns: repeat(3,1fr) ;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
 }
 .skills{
     text-align: center;
-    margin: 10px auto;
-
 }
 .text-skill{
     font-weight: bold;
@@ -226,5 +224,12 @@ header{
 @media screen and (max-width: 800px) {
     body {
       background: crimson;
+    }
+    .content-hab{
+        display: grid;
+    }
+    .front ,.back{
+        width: 100%;
+        gap: 10px;
     }
   } 
