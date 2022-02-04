@@ -8,6 +8,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background: rgb(207, 207, 207);
 }
 .hamburguer{
     width: 2rem;
@@ -222,14 +223,15 @@ header{
     font-weight: bold;
 }
 @media screen and (max-width: 800px) {
-    body {
-      background: crimson;
-    }
     .content-hab{
         display: grid;
     }
     .front ,.back{
         width: 100%;
         gap: 10px;
+    }
+    .text-header{
+        text-align: center;
+        left: 0;
     }
   } 
