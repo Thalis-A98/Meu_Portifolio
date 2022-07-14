@@ -1,5 +1,4 @@
-var hamburguer = document.querySelector(".hamburguer");
+const div = document.querySelector('#teste')
 
-hamburguer.addEventListener("click", function(){
-    document.querySelector(".container").classList.toggle("show-menu");
-});
+console.log(div.scrollHeight)
+console.log(div.scrollWidth)
