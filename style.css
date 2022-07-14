@@ -11,12 +11,38 @@
 }
 body{
     font-family: 'Arimo', sans-serif;
-    background: rgb(207, 207, 207);
+    background: rgb(233, 233, 233);
+}
+.principal{
+    width: 100%;
+    height: 100vh;
 }
 .cabecalho{
+    position: fixed;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 3.5rem;
+    border-bottom: 1px solid rgba(158, 158, 158, 0.3);
+}
+.cabecalho h2{
+    font-weight: 600;
+    cursor: pointer;
 }
 .cabecalho ul{
     display: flex;
+}
+.cabecalho ul li + li{
+    margin-left: 20px;
+}
+.cabecalho ul li a{
+    color: #000;
+    font-size: 1.2rem;
+    font-style: italic;
+    transition: 0.3;
+}
+.cabecalho ul li a:hover{
+    font-size: 1.5rem;
+    font-weight: 600;
 }
