@@ -13,13 +13,10 @@ body{
     font-family: 'Arimo', sans-serif;
     background: rgb(207, 207, 207);
 }
-div{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: black;
-    color: #FFF;
-    width: 100%;
-    text-align: center;
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalho ul{
+    display: flex;
 }
